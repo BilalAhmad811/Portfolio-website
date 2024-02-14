@@ -1,0 +1,284 @@
+body{
+    background-color: black;
+    color: white;
+   
+}
+.header{
+    display: flex;
+    align-items: flex-end;
+}
+.name{
+font-size: 28px;
+transition: color 1s;
+width: 20%;
+margin-left:30px ;
+
+}
+.navbar{
+    display: flex;
+    width:70%;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.name:hover{
+    color: #A0830E;
+    
+}
+.dot{
+    font-size: 60px;
+    color: #A0830E;
+}
+.navbar a {
+    color: white; 
+    text-decoration: none; 
+   
+    padding: 8px 20px ;
+    border-bottom: 3px solid #A0830E;
+    border-radius:20px ;
+    transition: all 0.8s ;
+   
+
+ }
+.nameheading{
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.nameheading:hover{
+    color: #A0830E;
+}
+.navbar a:hover {
+    scale: 1.1;
+    color:white;
+    font-weight: bold;
+    background-color:#A0830E;
+}
+.line{
+    width: 60px;
+    height: 5px;
+    background-color: #A0830E    ;
+    float: right;
+}
+.lines{
+    width: 45px;
+    height: 4px;
+    background-color: #A0830E;
+}
+.about{
+    text-align: right;
+    width: 40%;
+    margin-top: 150px;
+ 
+}
+.post{
+    color: #A0830E;
+
+}
+.info{
+   
+    text-align: left;
+    font-size: 18px;
+    color: #dfd8c7;
+}
+.mypic{
+    height: 420px;
+    width: 350px;
+}
+.aboutall{
+    display: flex;
+    margin-left: 60px;
+    
+    
+}
+.img{
+    margin-left: 10px;
+    
+    margin-top: 80px;
+}
+.detail{
+        
+        flex-direction: row; 
+        justify-content: space-evenly;
+        margin-top: 220px;
+    
+}
+.bts{
+    border: 3px solid #fdcc07;
+    padding: 10px 20px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    background-color: #635007;
+    color: rgb(255, 255, 255);
+    border-radius: 22px;
+    font-size: 15px;
+    transition: color 0.8s ;
+}
+.bts:hover{
+    background-color: black;
+    color:#A0830E;
+    font-weight: bold;
+    
+}
+
+.fab{
+    margin-right: 30px;
+    font-size: 30px;
+}
+.expertise{
+
+  margin-top: 90px;
+  
+   display: flex;
+    height: 500px;
+  
+    
+}
+.imgexpert{
+  
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.codpic{
+    
+    border: 3px solid #a0830e ;
+    border-radius: 200px;
+    
+}
+.codpicc{
+    
+    border: 5px solid #a0830e ;
+    border-radius: 220px;
+    height: 450px;
+    width: 650px;
+}
+.expert{
+   text-align: center;
+   color:#A0830E;
+     width: 50%;
+     height: 500px;
+     padding-top: 30px;
+}
+.css{
+    margin-left: 2px;
+    height: 60px;
+}
+.js{
+    margin-left: 2px;
+    height: 60px;
+}
+.react{
+    margin-left: 15px;
+    height: 50px;
+}
+.node{
+    margin-left: 15px;
+    padding-bottom: 9px;
+    height: 40px;
+    width: 50px;
+}
+.stack{
+    margin-left: 15px;
+    height: 50px;
+}
+.python{
+    margin-left: 15px;
+    height: 50px;
+}
+.skill {
+  display: flex;
+    text-align: center;
+ margin-top: 90PX;
+    margin-bottom: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-level {
+    
+    width: 60%;
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.skill-level-bar {    
+    height: 100%;
+    background-color: #a0830e ; 
+    border-radius: 5px;
+    color: #113872;
+}
+footer{
+    font-weight: bold;
+    border-top:1px solid #A0830E;
+    color: #e0bb27;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.blogs{
+    
+    margin-top: 120px;
+    height: 600px;
+   
+   font-size: 20px;
+    padding-left: 80px;
+
+}
+.blog1{
+    border-radius: 20px;
+    padding-left: 30px;
+    height: auto ;
+    width: 50%;
+    transition: all 1.3s ;
+    cursor: pointer;
+   
+}
+.blog1:hover{
+    scale: 1.1;
+    background-color: #363015;
+}
+.blog2:hover{
+    scale: 1.1;
+    background-color: #363015;
+}
+.blog2{
+    border-radius: 20px;
+    padding-left: 30px;
+    height: auto;
+    width: 50%;
+ 
+    transition: all 1.3s ;
+}
+.hovercontainer{
+    margin-top: 52px;
+    display: flex;
+    justify-content:space-around ;
+}
+.supports{
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 80px;
+    border-radius: 30px;
+    color: black;
+    width: auto;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+.myimgg{
+    margin-left: 80px;
+    height: 250px;
+    border: 3px solid #A0830E;
+    border-radius: 50%;
+}
